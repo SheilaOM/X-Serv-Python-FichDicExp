@@ -16,6 +16,6 @@ for usuario in usuarios:
 	try:
 		print(shells[usuario])
 	except KeyError:
-		print("El usuario 'imaginario' no existe")
+		print("El usuario '" + usuario + "' no existe")
 
 print("Número de usuarios: " + str(len(users)))
